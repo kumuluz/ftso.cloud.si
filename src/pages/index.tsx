@@ -1,6 +1,5 @@
 import React from "react";
 
-import { FLARE_METRICS_URL } from "../config/ftso.config";
 import {
     page,
     headerContainer,
@@ -28,9 +27,8 @@ const IndexPage = () => {
                 
                 <div className={subtitle}>
                     <a href="https://flare.xyz/" target="_blank" rel="noreferrer noopener">Flare</a>
-                    {" "}Times
-                    {" "}<a href="https://flaremetrics.io/" target="_blank" rel="noreferrer noopener">Series</a>
-                    {" "}Oracle
+                    {" "}Times Series
+                    {" "}<a href="https://flaremetrics.io/" target="_blank" rel="noreferrer noopener">Oracle</a>
                 </div>
             
             </div>
@@ -39,10 +37,8 @@ const IndexPage = () => {
                 
                 <div>
                     Delegate your votes and earn rewards:
-                    {" "}<a href={FLARE_METRICS_URL} target="_blank" rel="noreferrer noopener">{FLARE_METRICS_URL}</a>
                 </div>
                 <div className={walletContainer}>
-                    <span>Wallet:</span>
                     <WalletInfo/>
                 </div>
             
