@@ -1,43 +1,55 @@
-import * as React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
 
-// Please note that you can use https://github.com/dotansimha/graphql-code-generator
-// to generate all types from graphQL schema
-interface IndexPageProps {
-  data: {
-    site: {
-      siteMetadata: {
-        title: string
-      }
-    }
-  }
-}
+import { FLARE_METRICS_URL } from "../config/ftso.config";
+import {
+    page,
+    headerContainer,
+    infoContainer,
+    subtitle,
+    walletContainer, headerImage
+} from "./index.page.module.scss";
+import cloudLogo from "../assets/images/cloud-logo-white.svg";
+import { WalletInfo } from "../components/wallet-info/wallet-info.component";
+import { SEO } from "../components/seo/seo.component";
 
-export default class extends React.Component<IndexPageProps, {}> {
-  constructor(props: IndexPageProps, context: any) {
-    super(props, context)
-  }
-  public render() {
+const IndexPage = () => {
+    
     return (
-      <div>
-        <h1>Hi people</h1>
-        <p>
-          Welcome to your new{' '}
-          <strong>{this.props.data.site.siteMetadata.title}</strong> site.
-        </p>
-        <p>Now go build something great.</p>
-        <Link to="/page-2/">Go to page 2</Link>
-      </div>
-    )
-  }
-}
+        <div className={page}>
+            <SEO title="FTSO Cloud"/>
+            
+            <div className={headerContainer}>
+                
+                <div className={headerImage}>
+                    <img src={cloudLogo} alt="ftso cloud logo"/>
+                </div>
+                
+                <h1>FTSO Cloud</h1>
+                
+                <div className={subtitle}>
+                    <a href="https://flare.xyz/" target="_blank" rel="noreferrer noopener">Flare</a>
+                    {" "}Times
+                    {" "}<a href="https://flaremetrics.io/" target="_blank" rel="noreferrer noopener">Series</a>
+                    {" "}Oracle
+                </div>
+            
+            </div>
+            
+            <div className={infoContainer}>
+                
+                <div>
+                    Delegate your votes and earn rewards:
+                    {" "}<a href={FLARE_METRICS_URL} target="_blank" rel="noreferrer noopener">{FLARE_METRICS_URL}</a>
+                </div>
+                <div className={walletContainer}>
+                    <span>Wallet:</span>
+                    <WalletInfo/>
+                </div>
+            
+            </div>
+        
+        </div>
+    );
+};
 
-export const pageQuery = graphql`
-  query IndexQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
+export default IndexPage;

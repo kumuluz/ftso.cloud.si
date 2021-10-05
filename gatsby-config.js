@@ -1,10 +1,31 @@
 module.exports = {
-  siteMetadata: {
-    title: `Gatsby Typescript Starter`,
-  },
-  plugins: [
-    `gatsby-plugin-react-helmet`,
-    // Add typescript stack into webpack
-    `gatsby-plugin-typescript`
-  ],
+    siteMetadata: {
+        title: `FTSO Cloud`,
+        siteUrl: "https://ftso.cloud.si"
+    },
+    plugins: [
+        "gatsby-plugin-react-helmet",
+        "gatsby-plugin-sitemap",
+        "gatsby-plugin-robots-txt",
+        {
+            resolve: "gatsby-plugin-google-fonts",
+            options: {
+                fonts: [
+                    "rubik",
+                    "asap"
+                ]
+            }
+        },
+        {
+            resolve: "gatsby-plugin-sass",
+            options: {
+                implementation: require("node-sass"),
+                sassOptions: {
+                    precision: 6
+                }
+            }
+        },
+        "gatsby-plugin-typescript",
+        "gatsby-plugin-offline"
+    ],
 }

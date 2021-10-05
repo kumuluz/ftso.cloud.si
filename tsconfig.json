@@ -3,10 +3,18 @@
         "outDir": "./dist/",
         "sourceMap": true,
         "noImplicitAny": true,
-        "module": "commonjs",
-        "target": "esnext",
+        "module": "CommonJS",
+        "target": "es5",
         "jsx": "react",
-        "lib": ["dom", "es2015", "es2017"]
+        "lib": [
+            "dom",
+            "es2015",
+            "es2019"
+        ],
+        "esModuleInterop": true,
+        "strict": true,
+        "noEmit": true,
+        "strictPropertyInitialization": false
     },
     "include": [
         "./src/**/*"

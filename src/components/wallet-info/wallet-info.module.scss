@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.wallet-info {
+  display: flex;
+
+  * {
+    color: $white;
+  }
+  .address {
+    font-size: 1.25rem;
+    margin-right: 10px;
+  }
+  .copy-icon {
+    cursor: pointer;
+  }
+}
