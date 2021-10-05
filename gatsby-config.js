@@ -13,7 +13,8 @@ module.exports = {
                 fonts: [
                     "rubik",
                     "asap"
-                ]
+                ],
+                display: "swap"
             }
         },
         {
