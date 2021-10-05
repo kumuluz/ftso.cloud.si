@@ -7,10 +7,15 @@ export interface SEOProps {
     lang?: string;
     meta?: any[];
     title: string;
+    canonical?: string;
+}
+
+function buildCanonicalLink(path: string): string {
+    return "https://ftso.cloud.si" + path;
 }
 
 export function SEO(props: SEOProps) {
-    const { title, meta, lang, description } = props;
+    const { title, meta, lang, description, canonical } = props;
     
     let fullMeta: any[] = [];
     if (description) {
@@ -31,6 +36,9 @@ export function SEO(props: SEOProps) {
         >
             <link rel="shortcut icon" href={cloudLogo} type="image/x-icon"/>
             <link rel="icon" href={cloudLogo} type="image/x-icon"/>
+            {canonical && (
+                <link rel="canonical" href={buildCanonicalLink(canonical)}/>
+            )}
         </Helmet>
     );
 }

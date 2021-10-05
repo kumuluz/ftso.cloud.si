@@ -15,7 +15,7 @@ const IndexPage = () => {
     
     return (
         <div className={page}>
-            <SEO title="FTSO Cloud"/>
+            <SEO title="FTSO Cloud" canonical="/" description="FTSO Cloud landing page"/>
             
             <div className={headerContainer}>
                 
