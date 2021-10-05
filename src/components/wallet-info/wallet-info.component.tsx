@@ -21,7 +21,7 @@ export const WalletInfo = () => {
         setTimeout(() => {
             setIcon(["far", "clipboard"]);
         }, 100);
-    }
+    };
     
     return (
         <div className={walletInfo}>

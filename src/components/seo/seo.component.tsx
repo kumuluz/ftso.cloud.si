@@ -25,12 +25,12 @@ export function SEO(props: SEOProps) {
     
     return (
         <Helmet
-            htmlAttributes={{ lang: lang }}
+            htmlAttributes={{ lang }}
             title={title}
             meta={fullMeta}
         >
-            <link rel="shortcut icon" href={cloudLogo} type="image/x-icon" />
-            <link rel="icon" href={cloudLogo} type="image/x-icon" />
+            <link rel="shortcut icon" href={cloudLogo} type="image/x-icon"/>
+            <link rel="icon" href={cloudLogo} type="image/x-icon"/>
         </Helmet>
     );
 }
