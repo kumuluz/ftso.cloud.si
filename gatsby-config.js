@@ -17,15 +17,7 @@ module.exports = {
                 display: "swap"
             }
         },
-        {
-            resolve: "gatsby-plugin-sass",
-            options: {
-                implementation: require("node-sass"),
-                sassOptions: {
-                    precision: 6
-                }
-            }
-        },
+        "gatsby-plugin-sass",
         "gatsby-plugin-typescript",
         "gatsby-plugin-offline"
     ],
