@@ -7,7 +7,7 @@ import {
     subtitle,
     walletContainer, headerImage
 } from "./index.page.module.scss";
-import cloudLogo from "../assets/images/cloud-logo-white.svg";
+import ftsoLogo from "../assets/images/ftso-plus-logo-col-white.svg";
 import { WalletInfo } from "../components/wallet-info/wallet-info.component";
 import { SEO } from "../components/seo/seo.component";
 
@@ -15,15 +15,13 @@ const IndexPage = () => {
     
     return (
         <div className={page}>
-            <SEO title="FTSO Cloud" canonical="/" description="FTSO Cloud landing page"/>
+            <SEO title="FTSO Plus" canonical="/" description="FTSO Plus landing page"/>
             
             <div className={headerContainer}>
                 
                 <div className={headerImage}>
-                    <img src={cloudLogo} alt="ftso cloud logo"/>
+                    <img src={ftsoLogo} alt="ftso logo"/>
                 </div>
-                
-                <h1>FTSO Cloud</h1>
                 
                 <div className={subtitle}>
                     <a href="https://flare.xyz/" target="_blank" rel="noreferrer noopener">Flare</a>
@@ -39,7 +37,7 @@ const IndexPage = () => {
                     Delegate your votes and earn rewards:
                 </div>
                 <div className={walletContainer}>
-                    <WalletInfo/>
+                    <WalletInfo fullAddress={true}/>
                 </div>
             
             </div>

@@ -8,7 +8,8 @@
   min-height: 100vh;
   padding-top: 150px;
 
-  background: linear-gradient(to bottom, $blue-300, $blue-400);
+  /*background: linear-gradient(to bottom, $blue-300, $blue-400);*/
+  background-color: $purple;
 
   .header-container {
     display: flex;

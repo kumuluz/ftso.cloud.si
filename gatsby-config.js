@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `FTSO Cloud`,
+        title: `FTSO Plus`,
         siteUrl: "https://ftso.cloud.si"
     },
     plugins: [

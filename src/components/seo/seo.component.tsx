@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import cloudLogo from "../../assets/images/cloud-logo-white.svg";
+import ftsoFavicon from "../../assets/images/ftso-plus-logo-F-black.svg";
 
 export interface SEOProps {
     description?: string;
@@ -34,8 +34,8 @@ export function SEO(props: SEOProps) {
             title={title}
             meta={fullMeta}
         >
-            <link rel="shortcut icon" href={cloudLogo} type="image/x-icon"/>
-            <link rel="icon" href={cloudLogo} type="image/x-icon"/>
+            <link rel="shortcut icon" href={ftsoFavicon} type="image/x-icon"/>
+            <link rel="icon" href={ftsoFavicon} type="image/x-icon"/>
             {canonical && (
                 <link rel="canonical" href={buildCanonicalLink(canonical)}/>
             )}
