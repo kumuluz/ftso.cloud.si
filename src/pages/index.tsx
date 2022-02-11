@@ -7,7 +7,7 @@ import {
     subtitle,
     walletContainer, headerImage
 } from "./index.page.module.scss";
-import cloudLogo from "../assets/images/cloud-logo-white.svg";
+import cloudLogo from "../assets/images/ftso-plus-logo-col-white.svg";
 import { WalletInfo } from "../components/wallet-info/wallet-info.component";
 import { SEO } from "../components/seo/seo.component";
 
