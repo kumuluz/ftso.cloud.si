@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `FTSO Plus`,
-        siteUrl: "https://ftso.cloud.si"
+        siteUrl: "https://ftso.plus"
     },
     plugins: [
         "gatsby-plugin-react-helmet",

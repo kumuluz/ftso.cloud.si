@@ -1,2 +1,2 @@
 # FTSO Plus
-> https://ftso.cloud.si
+> https://ftso.plus

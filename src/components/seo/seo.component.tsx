@@ -11,7 +11,7 @@ export interface SEOProps {
 }
 
 function buildCanonicalLink(path: string): string {
-    return "https://ftso.cloud.si" + path;
+    return "https://ftso.plus" + path;
 }
 
 export function SEO(props: SEOProps) {
