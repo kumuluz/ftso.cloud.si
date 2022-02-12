@@ -37,7 +37,7 @@ const IndexPage = () => {
                     Delegate your votes and earn rewards:
                 </div>
                 <div className={walletContainer}>
-                    <WalletInfo fullAddress={true}/>
+                    <WalletInfo fullAddress={false}/>
                 </div>
             
             </div>
