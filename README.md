@@ -1,2 +1,3 @@
 # FTSO Plus
-> https://ftso.plus
+
+[FTSO+](https://ftso.plus)
