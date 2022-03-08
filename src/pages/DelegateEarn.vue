@@ -8,8 +8,12 @@
                         <h3>Opportunity</h3>
                         <br>
                         <p>
+
+                            Delegating your votes to FTSO + is an <br> opportunity to earn
+                            <b>passive income</b>.
                             Delegating your votes to FTSO + is an <br> opportunity to earn<br>
                             <b>passive income</b>
+
                         </p>
                         <br>
                     </div>
@@ -31,6 +35,7 @@
                         <h3>What we do ? </h3>
                         <br>
                         <p>
+                            We collect and aggregate data from<br> a bunch of exchanges to provide<br> <b>accurate</b> prices.
                             We collect and aggregate data from<br> a bunch of exchanges to provide<br> <b>accurate</b> prices
                         </p>
                         <br>
@@ -39,6 +44,10 @@
                 <div class="box">
                     <div class="d-flex justify-space-around flex-column text-center align-center">
                         <br>
+                        <h3>Our goal </h3>
+                        <br>
+                        <p>
+                            We use the <b>cloud infrastructure</b> to achieve<br>  <b>best performance</b> and <b>maximum uptime</b>.
                         <h3>Our goal ? </h3>
                         <br>
                         <p>
@@ -48,6 +57,8 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-center flex-column text-center align-center w-75" style="gap: 10px; justify-content: center; align-items: center ">
+                <h3 class="text-center delegateAddress">Our Songbird Address for delegation is <b>0x0FA72D3912d1C530AB1f6a8A9fB61C672947E964</b></h3>
             <div class="d-flex justify-center flex-column text-center align-center w-50" style="gap: 10px; justify-content: center; align-items: center ">
                 <h3 class="text-center">Our Songbird Address for delegation is xxxx</h3>
                 <button class="delegateButton">
@@ -60,12 +71,30 @@
 
 <script>
     export default {
+        name: "DelegateEarn",
+        metaInfo:{
+            title: "Delegate&Earn"
+        }
         name: "DelegateEarn"
     }
 </script>
 
 <style scoped>
 
+    @media screen and (max-width: 700px) {
+        .delegateAddress{
+            font-size: 0.75rem;
+        }
+    }
+    @media screen and (min-width: 700px) {
+        .delegateAddress{
+            font-size: 1rem;
+        }
+    }
+
+    h3, h5 {
+        font-weight: bolder;
+        color: #390050;
 
     h3 {
         font-weight: bolder;

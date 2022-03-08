@@ -11,6 +11,12 @@
                         <h3 class="card__title">Songbird</h3>
                     </div>
                     <div class="card__back">
+                        <p class="card__body">
+                            <b>What is the Songbird network?</b><br>
+                            Songbird is a “Canary” network for Flare. The Canary network is similar to a testnet with an important difference: the assets held on the Canary network actually have value.
+                            This is due to a predetermined token supply. The Songbird network is used to test new features, before being brought to the Flare network.
+                            The native token of the Singbird network is Songbird (SGB).
+                        </p>
                         <p class="card__body">This would be some longer text that gives a description of the things from the other side I guess</p>
                     </div>
                 </div>
@@ -21,6 +27,21 @@
                         <h3 class="card__title">Flair</h3>
                     </div>
                     <div class="card__back">
+                        <p class="card__body">
+                            <b>What is an FTSO?</b><br>
+                            FTSO stands for Flare Time Series Oracle. It is an integral part of the Flare network and it provides externally sourced (off-chain) data to the Flare Network in a decentralized manner.
+                            This data can be then used with confidence by other decentralized applications build on the top of the Flare network.<br><br>
+
+                            The Flare network is a future blockchain.
+                            It is smart contracts enabled Federated Byzantine Agreement (FBA) network, which aims to unlock the value of assets that do not currently have the functionality of
+                            smart contracts by allowing them to be brought over to Flare in a risk-free, fully collateralized manner. The native token of the Flare network is Spark (FLR).
+                            More details can be found on the Flare network official website: <a href="https://flare.xyz" style="text-decoration: none;">https://flare.xyz</a>
+                            <br><br>
+                            <b>What is a Signal Provider?</b><br>
+                            Signal Providers are off-chain entities that provide data to the Flare Time Series Oracle (FTSO).
+                            The Signal Providers develop their own systems and algorithms to collect data from the outside of the Flare network, and then maintain very high uptime and provide reliable data.
+                            They are incentivized to provide as accurate data as possible and are rewarded based on this accuracy.
+                        </p>
                         <p class="card__body">This would be some longer text that gives a description of the things from the other side I guess</p>
                     </div>
                 </div>
@@ -31,6 +52,14 @@
                         <h3 class="card__title">Rewards</h3>
                     </div>
                     <div class="card__back">
+                        <p class="card__body">
+                            <b>How to earn rewards?</b><br>
+                            Signal Providers are rewarded for providing accurate data, which is determined by how close it is to the FTSO output.
+                            However, being a Signal Provider requires special skills to manage a reliable infrastructure and calculate accurate price estimates.
+                            <br>
+                            Important: <b>You can earn rewards also by delegating your vote a Signal Provider.</b>
+                            The vote delegation is risk-free because you never lose custody of your Spark (FLR) and you can redistribute your vote at any time without penalty.
+                        </p>
                         <p class="card__body">This would be some longer text that gives a description of the things from the other side I guess</p>
                     </div>
                 </div>
@@ -42,6 +71,10 @@
 
 <script>
     export default {
+        name: "HowItWorks",
+        metaInfo:{
+            title:"How it works"
+        }
         name: "HowItWorks"
     }
 </script>
@@ -99,6 +132,7 @@
         align-content: center;
     }
 
+
     .card__front_bird {
         background-color: #390050;
         background-image: url(../../static/logos/sgb-template.svg);
@@ -137,6 +171,11 @@
     .card__body {
         transform: translateZ(6rem);
         font-weight: 400;
+        max-font-size: 32px;
+        min-font-size: 1rem;
+        line-height: 1.6;
+        overflow-y: auto;
+        height: 100%;
         font-size: 3vh;
         min-font-size: 2vh;
         line-height: 1.6;

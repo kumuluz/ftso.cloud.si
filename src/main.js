@@ -13,6 +13,12 @@ export default function (Vue, { router, head, isClient }) {
   head.script.push({
     src: 'https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js'
   });
+  
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css2?family=Roboto'
+  });
+
   Vue.component('Layout', DefaultLayout);
   Vue.use(Vuetify);
   Vue.use(BootstrapVue);
