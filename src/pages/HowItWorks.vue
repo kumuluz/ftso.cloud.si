@@ -17,6 +17,7 @@
                             This is due to a predetermined token supply. The Songbird network is used to test new features, before being brought to the Flare network.
                             The native token of the Singbird network is Songbird (SGB).
                         </p>
+                        <p class="card__body">This would be some longer text that gives a description of the things from the other side I guess</p>
                     </div>
                 </div>
             </div>
@@ -41,6 +42,7 @@
                             The Signal Providers develop their own systems and algorithms to collect data from the outside of the Flare network, and then maintain very high uptime and provide reliable data.
                             They are incentivized to provide as accurate data as possible and are rewarded based on this accuracy.
                         </p>
+                        <p class="card__body">This would be some longer text that gives a description of the things from the other side I guess</p>
                     </div>
                 </div>
             </div>
@@ -58,6 +60,7 @@
                             Important: <b>You can earn rewards also by delegating your vote a Signal Provider.</b>
                             The vote delegation is risk-free because you never lose custody of your Spark (FLR) and you can redistribute your vote at any time without penalty.
                         </p>
+                        <p class="card__body">This would be some longer text that gives a description of the things from the other side I guess</p>
                     </div>
                 </div>
             </div>
@@ -72,12 +75,14 @@
         metaInfo:{
             title:"How it works"
         }
+        name: "HowItWorks"
     }
 </script>
 
 <style scoped>
     h1 {
         color: #390050;
+        text-shadow: 3px 5px 6px rgba(0, 0, 0, 0.43);
     }
 
     img {
@@ -126,9 +131,8 @@
         display: grid;
         align-content: center;
     }
-    .card__back{
 
-    }
+
     .card__front_bird {
         background-color: #390050;
         background-image: url(../../static/logos/sgb-template.svg);
@@ -172,12 +176,14 @@
         line-height: 1.6;
         overflow-y: auto;
         height: 100%;
+        font-size: 3vh;
+        min-font-size: 2vh;
+        line-height: 1.6;
     }
 
     .card__back {
         transform: rotateY(.5turn);
         color: white;
         background: #390050;
-
     }
 </style>

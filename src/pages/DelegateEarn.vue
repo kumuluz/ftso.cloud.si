@@ -8,8 +8,12 @@
                         <h3>Opportunity</h3>
                         <br>
                         <p>
+
                             Delegating your votes to FTSO + is an <br> opportunity to earn
                             <b>passive income</b>.
+                            Delegating your votes to FTSO + is an <br> opportunity to earn<br>
+                            <b>passive income</b>
+
                         </p>
                         <br>
                     </div>
@@ -32,6 +36,7 @@
                         <br>
                         <p>
                             We collect and aggregate data from<br> a bunch of exchanges to provide<br> <b>accurate</b> prices.
+                            We collect and aggregate data from<br> a bunch of exchanges to provide<br> <b>accurate</b> prices
                         </p>
                         <br>
                     </div>
@@ -43,6 +48,10 @@
                         <br>
                         <p>
                             We use the <b>cloud infrastructure</b> to achieve<br>  <b>best performance</b> and <b>maximum uptime</b>.
+                        <h3>Our goal ? </h3>
+                        <br>
+                        <p>
+                            We use a <b>cloud infrastructure</b> and<br> strive for the <b>best performance</b> and<br> <b>maximum uptime</b>
                         </p>
                         <br>
                     </div>
@@ -50,6 +59,8 @@
             </div>
             <div class="d-flex justify-center flex-column text-center align-center w-75" style="gap: 10px; justify-content: center; align-items: center ">
                 <h3 class="text-center delegateAddress">Our Songbird Address for delegation is <b>0x0FA72D3912d1C530AB1f6a8A9fB61C672947E964</b></h3>
+            <div class="d-flex justify-center flex-column text-center align-center w-50" style="gap: 10px; justify-content: center; align-items: center ">
+                <h3 class="text-center">Our Songbird Address for delegation is xxxx</h3>
                 <button class="delegateButton">
                     <router-link to="/Delegation">Delegate</router-link>
                 </button>
@@ -64,6 +75,7 @@
         metaInfo:{
             title: "Delegate&Earn"
         }
+        name: "DelegateEarn"
     }
 </script>
 
@@ -83,6 +95,11 @@
     h3, h5 {
         font-weight: bolder;
         color: #390050;
+
+    h3 {
+        font-weight: bolder;
+        color: #390050;
+        text-shadow: 3px 5px 6px rgba(0, 0, 0, 0.43);
     }
 
     b {
