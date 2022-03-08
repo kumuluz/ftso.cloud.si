@@ -74,7 +74,7 @@
         name: "DelegateEarn",
         metaInfo:{
             title: "Delegate&Earn"
-        }
+        },
         name: "DelegateEarn"
     }
 </script>
