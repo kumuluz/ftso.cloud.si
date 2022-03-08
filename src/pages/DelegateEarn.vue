@@ -59,6 +59,7 @@
             </div>
             <div class="d-flex justify-center flex-column text-center align-center w-75" style="gap: 10px; justify-content: center; align-items: center ">
                 <h3 class="text-center delegateAddress">Our Songbird Address for delegation is <b>0x0FA72D3912d1C530AB1f6a8A9fB61C672947E964</b></h3>
+            </div>
             <div class="d-flex justify-center flex-column text-center align-center w-50" style="gap: 10px; justify-content: center; align-items: center ">
                 <h3 class="text-center">Our Songbird Address for delegation is xxxx</h3>
                 <button class="delegateButton">
@@ -74,8 +75,7 @@
         name: "DelegateEarn",
         metaInfo:{
             title: "Delegate&Earn"
-        },
-        name: "DelegateEarn"
+        }
     }
 </script>
 
@@ -93,8 +93,9 @@
     }
 
     h3, h5 {
-        font-weight: bolder;
-        color: #390050;
+      font-weight: bolder;
+      color: #390050;
+    }
 
     h3 {
         font-weight: bolder;

@@ -75,7 +75,6 @@
         metaInfo:{
             title:"How it works"
         },
-        name: "HowItWorks"
     }
 </script>
 

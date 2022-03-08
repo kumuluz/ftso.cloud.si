@@ -11,7 +11,7 @@
                     <input class="form-control" type="text" width="100%" placeholder="name">
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" type="text" width="100%" placeholder="message" rows="6"></textarea>
+                    <textarea class="form-control" type="text" style="width:100%" placeholder="message" rows="6"></textarea>
                 </div>
                 <div class="form-group">
                     <button class="btn btn-primary" style="background-color: #390050; border: none" >Send</button>
