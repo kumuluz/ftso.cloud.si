@@ -23,7 +23,10 @@
 
 <script>
     export default {
-        name: "TalkToUs"
+        name: "TalkToUs",
+        metaInfo:{
+            title: "Talk to us"
+        }
     }
 </script>
 
