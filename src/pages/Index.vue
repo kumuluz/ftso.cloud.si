@@ -8,7 +8,7 @@
 <script>
     export default {
         metaInfo: {
-            title: 'Hello, world!'
+            title: ""
         },
         mounted(){
             this.$router.push("/delegate-earn")
