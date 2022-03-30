@@ -4,8 +4,9 @@
                    fixed
                    elevation="24"
                    outlined style="background-color: #6BC5D2;">
-            <g-image src="~/../static/logos/ftso-plus-logo-F-black.svg" width="20px"></g-image>
-            <v-spacer></v-spacer>
+            <a  href="/">
+                <g-image src="~/../static/logos/ftso-plus-logo-F-black.svg" width="20px"></g-image>
+            </a>
             <div style="display: flex; justify-content: space-evenly; width: 80%;">
                 <div class="d-flex">
                     <button class="nav d-inline-flex">
@@ -14,14 +15,16 @@
                 </div>
                 <div class="d-flex">
                     <button class="nav d-inline-flex">
-                        <router-link to="/how-it-works">How it works ?</router-link>
+                        <router-link to="/how-it-works">How it works?</router-link>
                     </button>
                 </div>
+                <!--
                 <div class="d-flex">
                     <button class="nav d-inline-flex">
-                        <router-link to="/talk-to-us">Talk to us</router-link>
+                        <router-link to="/talk-to-us" disabled>Talk to us</router-link>
                     </button>
                 </div>
+                -->
             </div>
         </v-app-bar>
         <transition name="fade" appear>
@@ -34,7 +37,7 @@
 
 <script>
     export default {
-
+        name:"NavBar"
     }
 </script>
 
