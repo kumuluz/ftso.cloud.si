@@ -2,7 +2,7 @@
 
     <layout>
         <div class="text-center" style="margin-top: 68px">
-            <h1>How it works ? </h1>
+            <h1>How it works? </h1>
         </div>
         <div class="cardsContainer">
             <div class="card">
@@ -24,7 +24,7 @@
             <div class="card">
                 <div class="card__content">
                     <div class="card__front card__front_flr">
-                        <h3 class="card__title">Flair</h3>
+                        <h3 class="card__title">Flare</h3>
                     </div>
                     <div class="card__back">
                         <p class="card__body">
