@@ -49,7 +49,13 @@
             </div>
             <div class="d-flex justify-center flex-column text-center align-center w-75" style="gap: 10px; justify-content: center; align-items: center ">
                 <div class="d-flex justify-center flex-column text-center align-center w-50" style="gap: 10px; justify-content: center; align-items: center ">
-                    <h3 class="text-center delegateAddress">Our Songbird Address for votes delegation is <b>0x0FA72D3912d1C530AB1f6a8A9fB61C672947E964</b></h3>
+                  <h3 class="text-center delegateAddress">Delegate your votes and earn rewards:</h3>
+                  <h3 class="text-center delegateAddress">
+                    Flare (FLR): <strong>0x3d2c08ed9b2333cbce2b8a219e02f4aa31ebccd3</strong>
+                  </h3>
+                  <h3 class="text-center delegateAddress">
+                    Songbird (SGB): <strong>0x0FA72D3912d1C530AB1f6a8A9fB61C672947E964</strong>
+                  </h3>
                     <!--
                     <button class="delegateButton" >
                         <router-link to="/Delegation">Delegate</router-link>
